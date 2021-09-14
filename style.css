@@ -1,3 +1,25 @@
 body {
-    background: rgb(252, 243, 227);
+    background: rgb(135, 153, 135);
   } 
+
+.largetext {
+    color: rgb(255, 255, 255);
+    font-family: "Garamond";
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-family: "Garamond";
+    color: white
+}
+
+img {
+    display: block;
+    margin-top: 20px;
+    margin-bottom:20px;
+   margin-left: auto;
+   margin-right:auto;
+   width:auto;
+   border: 3px solid rgb(41, 65, 45);
+}

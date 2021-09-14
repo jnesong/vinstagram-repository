@@ -1,3 +1,6 @@
-const h2 = document.createElement('h2');
-h2.textContent = "This content added by Javascript";
-document.querySelector('body').appendChild(h2);
+$(document).ready(function () {
+    $('#select-anchor').change( function () {
+        var targetPosition = $($(this).val()).offset().top;
+        $('html,body').animate({ scrollTop: targetPosition}, 'slow');
+    });
+});
