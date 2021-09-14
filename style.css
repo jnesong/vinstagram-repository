@@ -6,12 +6,15 @@ body {
     color: rgb(255, 255, 255);
     font-family: "Garamond";
     text-align: center;
+    font-size: 50 px
 }
 
 p {
     text-align: center;
     font-family: "Garamond";
-    color: white
+    color: white;
+    padding: 10px;
+    font-size: 40px
 }
 
 img {
@@ -21,5 +24,9 @@ img {
    margin-left: auto;
    margin-right:auto;
    width:auto;
-   border: 3px solid rgb(41, 65, 45);
+   border: 3px solid rgb(29, 41, 31);
+}
+
+.panel0, .panel, .panel2, .panel3 {
+    display:none
 }
