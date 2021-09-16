@@ -24,6 +24,13 @@ p, a {
     display: in-line
 }
 
+a:link {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
 table {
     display: table;
     margin-left: auto;
@@ -46,10 +53,21 @@ img {
    margin-right:auto;
    width:auto;
    border: 3px solid rgb(29, 41, 31);
-   background-color: rgb(135, 153, 135);
 }
 
-.panel0, .panel, .panel2, .panel3, .panel4 {
+ul {
+    list-style-type: circle;
+    color: white;
+    text-align: center;
+    background:rgba(96, 119, 106, 0.26);
+
+}
+
+li {
+    padding: 10px;
+}
+
+.panel0, .panel, .panel2, .panel3, .panel4, .panel5 {
     display:none;
     text-align: center
 }
