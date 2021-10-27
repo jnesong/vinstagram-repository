@@ -6,4 +6,5 @@ $(document).ready(function(){
     });
   });
 
+I used jquery to integrate functions into html code instead because when googling how to add the functions I wanted, jquery seemed easier and cleaner.
   */

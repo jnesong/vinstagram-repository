@@ -1,34 +1,44 @@
+<!-- This is all the required html stuff, declaring it as html version 5 and for the brower to read it as html
+    setting the language as english, bringing in my css style sheet, what my tab title will be, and bringing in jquery library
+-->
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <link rel="stylesheet" href="style.css">
         <title>Vinstagram</title>
-        <script src="script.js"></script>
        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script> 
-$(document).ready(function(){
-  $(".flip0").click(function(){
-    $(".panel0").slideToggle("fast");
-  });
-  $(".flip").click(function(){
-    $(".panel").slideToggle("fast");
-  });
-  $(".flip2").click(function(){
-    $(".panel2").slideToggle("fast");
-  });
-  $(".flip3").click(function(){
-    $(".panel3").slideToggle("fast");
-  });
-  $(".flip4").click(function(){
-    $(".panel4").slideToggle("fast");
-  });
-  $(".flip5").click(function(){
-    $(".panel5").slideToggle("fast");
-  });
-});
-</script>
-</head>
 
+<!-- this is the jquery toggle function for all my panels.
+    the flip is the clickable part and the panel is the content that is opened or closed
+    I think I could make this a function inside a function... hopefully will come back to this later.
+-->
+        <script> 
+            $(document).ready(function(){
+                $(".flip0").click(function(){
+                    $(".panel0").slideToggle("fast");
+                });
+                $(".flip").click(function(){
+                    $(".panel").slideToggle("fast");
+                });
+                $(".flip2").click(function(){
+                    $(".panel2").slideToggle("fast");
+                });
+                $(".flip3").click(function(){
+                    $(".panel3").slideToggle("fast");
+                });
+                $(".flip4").click(function(){
+                    $(".panel4").slideToggle("fast");
+                });
+                $(".flip5").click(function(){
+                    $(".panel5").slideToggle("fast");
+                });
+            });
+        </script>
+    </head>
+
+<!-- here is the top portion of the site, with the main header VINSTAGRAM and about blurb
+    including a relative link to a photo in the same directory and absolute links to instagram
+-->
     <body>
         <h1 id="top" class="largetext"> V I N S T A G R A M </h1>
 
@@ -45,7 +55,9 @@ $(document).ready(function(){
 
             
 
-           
+<!-- the next section is the majority of my menu/panel content, beautiful photos!!
+    it also includes a "jump to top" link where top is located by the id="top" in the h1
+-->
         
         <h2 class="flip">e n g a g e m e n t</h2>
             <div class="panel">
@@ -94,6 +106,9 @@ $(document).ready(function(){
                 height="950">
             <a href="#top">jump to top.</a>
             </div>
+
+<!-- I added this section to practice making a table.
+-->
         
         <h2 class="flip4"> r a t e s</h2>
             <div class="panel4">
@@ -105,21 +120,24 @@ $(document).ready(function(){
                     </tr>
                     <tr>
                       <td>5-6</td>
-                      <td>30 digital</td>
+                      <td>60 digital</td>
                       <td>$1000</td>
                     </tr>
                     <tr>
                       <td>7-9</td>
-                      <td>40 digital, 3 prints</td>
+                      <td>80 digital, 3 prints</td>
                       <td>$1600</td>
                     </tr>
                     <tr>
                       <td>9-12</td>
-                      <td>50 digital, 6 prints</td>
+                      <td>100 digital, 6 prints</td>
                       <td>$2300</td>
                     </tr>
                   </table>
             </div>
+
+<!-- I added this section to practice making an unordered list
+-->
         
         <h2 class="flip5">l o c a t i o n . s u g g e s t i o n s</h2>
             <div class="panel5">

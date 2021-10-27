@@ -1,6 +1,10 @@
+/* this is just my background color.
+it's a muted green to match the borders and compliment the naturey or clean feel of Vincent's photos */
 body {
     background: rgb(135, 153, 135);
   } 
+
+/*largetext is an id, not a class, because I only used it for the title of the webpage or the h1 "Vinstagram"*/
 
 h1.largetext {
     color: rgb(255, 255, 255);
@@ -9,6 +13,9 @@ h1.largetext {
     font-size: 50 px
 }
 
+/*on the other hand, I wanted all my clickables to be uniform
+and look like a menu, so all my h2s are the same and don't even need a class attribute 
+basically the same mindset with my paragraph blurb and links*/
 h2 {
     text-align: center;
     font-family: "Garamond";
@@ -24,6 +31,8 @@ p, a {
     display: in-line
 }
 
+/* the following styling bits just make my links, pricing table, and location list to
+look cleaner than the default. */
 a:link {
     text-decoration: none;
 }
@@ -45,16 +54,6 @@ th, td {
     text-align: center;
 }
 
-img {
-    display: block;
-    margin-top: 20px;
-    margin-bottom:20px;
-   margin-left: auto;
-   margin-right:auto;
-   width:auto;
-   border: 3px solid rgb(29, 41, 31);
-}
-
 ul {
     list-style-type: circle;
     color: white;
@@ -67,7 +66,19 @@ li {
     padding: 10px;
 }
 
+/* this is pretty important styling for my panels, all the toggle items, to be centered*/
+
 div.panel0, div.panel, div.panel2, div.panel3, div.panel4, div.panel5 {
     display:none;
     text-align: center
+}
+
+img {
+    display: block;
+    margin-top: 20px;
+    margin-bottom:20px;
+   margin-left: auto;
+   margin-right:auto;
+   width:auto;
+   border: 3px solid rgb(29, 41, 31);
 }
