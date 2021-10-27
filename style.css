@@ -2,7 +2,7 @@ body {
     background: rgb(135, 153, 135);
   } 
 
-.largetext {
+h1.largetext {
     color: rgb(255, 255, 255);
     font-family: "Garamond";
     text-align: center;
@@ -67,7 +67,7 @@ li {
     padding: 10px;
 }
 
-.panel0, .panel, .panel2, .panel3, .panel4, .panel5 {
+div.panel0, div.panel, div.panel2, div.panel3, div.panel4, div.panel5 {
     display:none;
     text-align: center
 }
