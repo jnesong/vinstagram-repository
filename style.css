@@ -31,7 +31,7 @@ p, a {
     display: in-line
 }
 
-/* the following styling bits just make my links, pricing table, and location list to
+/* the following styling bits just make my links (using pseudo-class selectors), pricing table, and location list to
 look cleaner than the default. */
 a:link {
     text-decoration: none;
